@@ -9,18 +9,18 @@
     <center>
         <h1>Books Management</h1>
         <h2>
-            <a href="/Bookstore/new">Add New Book</a>
+            <a href="/new">Add New Book</a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/Bookstore/list">List All Books</a>
+            <a href="/list">List All Books</a>
              
         </h2>
     </center>
     <div align="center">
         <c:if test="${book != null}">
-            <form action="/Bookstore/update" method="post">
+            <form action="update" method="post">
         </c:if>
         <c:if test="${book == null}">
-            <form action="/Bookstore/insert" method="post">
+            <form action="insert" method="post">
         </c:if>
         <table border="1" cellpadding="5">
             <caption>
@@ -69,4 +69,5 @@
         </form>
     </div>   
 </body>
+</html>
 </html>

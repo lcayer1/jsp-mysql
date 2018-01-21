@@ -8,8 +8,8 @@
  
     <context-param>
         <param-name>jdbcURL</param-name>
-        <!-- <param-value>jdbc:mysql://localhost:3306/bookstore</param-value>  -->
-        <param-value>jdbc:mysql://mysql:3306/Bookstore</param-value>
+        <param-value>jdbc:mysql://localhost:3306/bookstore</param-value>
+        <!-- <param-value>jdbc:mysql://mysql:3306/bookstore</param-value> -->
     </context-param>
  
     <context-param>
@@ -19,7 +19,7 @@
  
     <context-param>
         <param-name>jdbcPassword</param-name>
-        <param-value>root</param-value>
+        <param-value>ldj077</param-value>
     </context-param>
  
     <servlet>

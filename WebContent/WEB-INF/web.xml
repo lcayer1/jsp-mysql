@@ -19,7 +19,7 @@
  
     <context-param>
         <param-name>jdbcPassword</param-name>
-        <param-value>ldj077</param-value>
+        <param-value>root</param-value>
     </context-param>
  
     <servlet>
